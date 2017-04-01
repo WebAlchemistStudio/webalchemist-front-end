@@ -1,3 +1,6 @@
+<?php
+    include "lib/Parsedown.php";
+?>
 <!doctype html>
 <html>
     <head>
@@ -59,8 +62,8 @@
         <?php
             if(!isset($_GET["p"]) || $_GET["p"] == "home"){
                 include "pages/home.php";
-            } else if ($_GET["p"] == "privacy_policy"){
-                include "pages/privacy_policy.php";
+            } else if ($_GET["p"] == "document"){
+                include "pages/document.php";
             }
         ?>
         
