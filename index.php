@@ -111,7 +111,13 @@
                     Beautiful and Mobile Friendly
                 </section>
                 <article class='home-article'>
-                    We take pride in our works, we design websites that are beautiful on both desktop and mobile.
+                    <p>We take pride in our works, we design websites that are beautiful on both desktop and mobile.</p>
+                    <img src="images/wakemeup-all.png" width="1000" />
+                    <p>
+                        In today's world, a mobile optimized website is a must. That's why all our plans includes mobile optimization for free.<br>
+                        With Web Artisan, you can be sure that your website will look beautiful everywhere.<br><br>
+                        <button class="btn btn-default btn-lg"><span class='glyphicon glyphicon-book'></span> &nbsp; Check Out Our Portfolio</button>
+                    </p>
                 </article>
             </div>
             <section class='sub-heading'>
