@@ -1,0 +1,230 @@
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #212121;
+    color: #F5F5F5;
+    font-family: Oswald;
+    position: relative;
+}
+
+.sub-heading h2 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    min-height: 100vh;
+    text-align: right;
+    background-image:url(../images/home-image.jpg);
+    padding-top: 60px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+
+header .header-content {
+    text-align: right;
+    margin-top: 20vh;
+    display: inline-block;
+    position: relative;
+    opacity: 0.9;
+    background-color: #212121;
+}
+
+header .header-content h1 {
+    display: inline-block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+    color: white;
+    margin:0;
+    vertical-align: middle;
+    line-height: 100px;
+}
+
+header .header-content img {
+    height: 200px;
+    float: left;
+    margin-left:50px;
+}
+
+header .header-content p {
+    margin:0;
+    display: inline-block;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+header .header-content p span {
+    text-decoration: underline;
+}
+
+.fade-cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.5);
+    background: linear-gradient(to top, rgba(0,0,0,0.6), rgba(0,0,0,0.5));
+}
+
+.fade-cover.light {
+    background: linear-gradient(to top, rgba(255,255,255,0.8), rgba(255,255,255,0.9));
+}
+
+#primary-nav {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    border-radius: 0;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #212121;
+}
+
+
+#primary-nav li a {
+    color: #F5F5F5;
+}
+
+#primary-nav .open a {
+    background-color: black;
+}
+
+#primary-nav .dropdown-menu {
+    padding: 0;
+    border: none;
+    background-color: black;
+}
+
+#primary-nav .dropdown-menu li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#primary-nav .navbar-toggle {
+    border: #424242 1px solid;
+    transition: all ease 0.3s;
+}
+
+
+#primary-nav .navbar-toggle:hover {
+    background-color: black;
+    transition: all ease 0.3s;
+}
+
+#primary-nav .navbar-collapse {
+    border: none;
+}
+
+#primary-nav .navbar-brand {
+    padding: 0;
+    padding-right: 20px;
+}
+
+#primary-nav .navbar-brand img {
+    height: 80%;
+    margin-top: 10%;
+    margin-left: 20px;
+}
+
+.main-container {
+    padding: 0;
+}
+
+.home-article {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+}
+
+.sub-section.money-background {
+    background-image: url(../images/money.jpg);
+}
+
+.sub-section.mac-background {
+    background-image: url(../images/mac.jpg);
+}
+
+.sub-section {
+    background-size: cover;
+    position: relative;
+    min-height: 100vh;
+}
+
+.compare-table {
+    background-color: white;
+    display: inline-block;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.5) 10px 10px 40px;
+}
+
+.compare-table .heading {
+    font-size: 30px;
+    background-color: #212121;
+    color: white;
+}
+
+
+
+.compare-table .heading td {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.compare-table .heading td.other {
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.compare-table .price {
+    font-size: 40px;
+}
+
+.compare-table .price td {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.compare-table .price td.other {
+    font-size: 25px;
+    opacity: 0.7;
+}
+
+.compare-table .product {
+    background-color: rgba(0,0,0,0.05);
+    font-size: 15px;
+}
+
+.compare-table .product td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.home-article p {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
