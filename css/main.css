@@ -164,6 +164,10 @@ header .header-content p span {
     background-image: url(../images/mac.jpg);
 }
 
+.sub-section.computer-background {
+    background-image: url(../images/computer.jpg);
+}
+
 .sub-section {
     background-size: cover;
     position: relative;
@@ -227,4 +231,12 @@ header .header-content p span {
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.home-article ul {
+    font-size: 20px;
+}
+
+.home-article ul li {
+    list-style: none;
 }
