@@ -178,7 +178,38 @@
                 </article>
             </div>
         </div>
-        
+        <footer>
+            <div class="row">
+                <div class="col-md-12" style='text-align:center;'>
+                    <img src="images/webartisan.png" width="60" />
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <h4>Policies</h4>
+                    <a href="#">Privacy Policy</a><br>
+                    <a href="#">Refund</a><br>
+                    <a href="#">Warranty</a><br>
+                    <a href="#">Hosting Terms of Service</a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Join Us</h4>
+                    <a href="#">About Web Artisan</a><br>
+                    <a href="#">What We Do</a>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact</h4>
+                    <a href="#">(306) 341-1035</a><br>
+                    <a href="#">xx@example.com</a><br>
+                    <a href="#">Create an Account</a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" style='text-align:center;'>
+                    &copy; Web Artisan Studio 2017 All Rights Reserved
+                </div>
+            </div>
+        </footer>
     </body>
 </html>
 <script>
