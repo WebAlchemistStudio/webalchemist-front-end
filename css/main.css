@@ -257,3 +257,43 @@ footer a {
 footer a:hover {
     color:white;
 }
+
+.head-fix {
+    height: 60px;
+    width: 100%;
+}
+
+.document {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.document p {
+    font-size: 16px;
+}
+
+.document h1 {
+    border-bottom: rgba(0,0,0,0.25) 1px solid;
+    padding-bottom: 10px;
+    text-align: right;
+}
+
+.document ul {
+    font-size: 16px;
+}
+
+.document .version {
+    display: block;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    text-align: right;
+}
+
+.document-nav {
+    margin:0;
+    border-left: rgba(0,0,0,0.7) 2px solid;
+}
+
+.document-nav li {
+    
+}
